@@ -1,11 +1,13 @@
 // import logo from './logo.svg';
 import './App.css';
-import { Opp }from './components/Opp'
+import Navbar from './components/Navbar';
+// import { Opp }from './components/Opp'
 
 function App() {
   return (
     <div className="App">
-     <Opp/>
+     {/* <Opp/> */}
+     <Navbar/> 
     </div>
   );
 }
